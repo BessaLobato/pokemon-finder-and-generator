@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 03
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Pokemon Finder & Random Generator
+    </h1>
+    <img id="photo" src="https://images.unsplash.com/photo-1542887486-c0aeb6d2fc46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="page-logo" alt=""><br>
+    <p class="page-subtitle">
+      Digite o número ou o nome de qualquer Pokemon, <br> 
+      ou não digite nada e deixa que a gente escolhe um dos clássicos pra você!
+    </p>
+    <input type="string" id="valor" /><br>
+    <button type="submit" id="btn" onclick="getPokeData()">Encontre um Pokemon</button>
+    <h2 class="resultado" id="resultado"></h2>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <script src="app.js"></script>
+</body>
+
+</html>
